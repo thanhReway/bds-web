@@ -1,0 +1,32 @@
+// Variables
+// --------------------------
+$color-black:             #000;
+$color-white:             lighten($color-black, 100%); //#fff
+$color-ccc:               lighten($color-black, 80%); //#ccc
+$color-9:                 lighten($color-black, 60%); //#999
+$color-e:                 lighten($color-black, 93%); //#eee
+$color-e4:                lighten($color-black, 89%); //#e4e4e4
+$color-a7:                lighten($color-black, 65%); //#a7a7a7
+$color-d7:                lighten($color-black, 84%); //#d7d7d7
+$color-ef:                lighten($color-black, 94%); //#d7d7d7
+
+$color-blue:  		        #00a8e6;
+$color-blueBlack: 	      #0195cc;
+$color-red:  		          #e50e27;
+$color-btnRed:  	        #fa4916;
+$color-yellow:  	        #ffc600;
+$color-green:  		        #40bd4f;
+
+$font11:		              11px;
+$font12:		              12px;
+$font13:		              13px;
+$font14:		              14px;
+$font18:		              18px;
+$font24:		              24px;
+
+$size-5:                  5px;
+$size-10:                 $size-5 + 5px;
+$size-15:                 $size-5 + 10px;
+$size-20:                 $size-5 + 15px;
+$size-25:                 $size-5 + 20px;
+$size-30:                 $size-5 + 25px;

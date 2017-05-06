@@ -1,0 +1,285 @@
+// Styles
+// -------------------------- 
+html, body{
+	overflow-x: hidden;
+	font-size: 13px;
+}
+.page-home{
+	& > div:not(#chat-container), .main, .box-homepage{
+		height:100%;
+	}
+}
+.box-homepage{
+	min-height:400px;
+}
+footer.footer{
+	clear:both;
+}
+.ui-widget{
+	&.ui-widget-content{
+		z-index:998;
+		border:none;
+		padding-top:5px;
+	}
+	&.relandAutoOne{
+		li{
+			border-top:1px solid $color-e4;
+			border-bottom:1px solid $color-e4;	
+		}	
+		p{
+			clear:both;
+			position:relative;
+			padding:10px 20px 10px 0;
+			margin-left:40px;
+			i{
+				position:absolute;
+				left:-30px;
+				&.gray{
+					color:#bababa	
+				}
+				&.red{
+					color:#e60000;	
+				}
+			}
+			span{
+				float:right;
+				color:$color-a7;
+				font-size:$font14;
+			}
+			& + p{
+				border-top:1px solid $color-e4;	
+			}
+		}
+	}
+	&.relandAuto{
+		position:absolute;
+		overflow:auto;
+		max-width:354px;
+		max-height:270px;
+		li{
+			margin-left:15px;
+			position:relative;
+			padding:8px 0 8px 27px;
+			border-top:1px solid $color-e4;
+			white-space: pre-wrap;
+			word-wrap: break-word;
+			&.ui-autocomplete-category{
+				color:#666;
+				border-top:1px solid $color-e4;
+				padding:12px 15px;
+				margin:0;
+				display:none;
+				&:first-child{
+					display:block;
+					color:$color-blue;
+					&:before{
+						content:"\f05b";
+						display: inline-block;
+						width:30px;
+						font-family: FontAwesome;
+						font-size:20px;
+						position:relative;
+						top:2px;
+					}
+				}
+			}
+			span{
+				display:block;
+				font-size:$font12;
+				color:$color-a7;
+				padding:3px 0 0;
+			}
+			i{
+				position:absolute;
+				left:-12px;	
+				font-weight:normal;
+				&.gray{
+					color:#bababa	
+				}
+				&.red{
+					color:#e60000;	
+				}
+				&.fa{
+					font-size:18px;	
+				}
+			}
+			/*&:last-child{
+				&:after{
+					content:"";
+					background:$color-e4;
+					height:1px;
+					left:-45px;
+					right:0;
+					position:absolute;
+					bottom:-5px;
+				}	
+			}*/
+		}
+	}
+	&.relandAuto1{
+		li{
+			margin-left:45px;
+			position:relative;
+			padding:10px 10px 10px 0;
+			background:$color-white;
+			&.ui-menu-main{
+				margin-left:0;
+				color:$color-black;
+				padding-left:45px;
+				z-index:2;
+				margin-bottom:-2px;
+				padding-bottom:10px;
+				&:first-child{
+					border-top:none;
+				}
+				i{
+					left:12px;
+					top:8px;
+					font-size:$font18;
+					&.iconMap, &.iconCity, &.iconBookmark, &.iconLocation{
+						color:$color-blue;
+					}
+					&.iconCity, &.iconBookmark{
+						font-size:$font18+4;
+					}
+				}
+			}
+		}
+	}
+	&.relandMaps{
+		z-index:99999999;
+		height:auto;
+		position:fixed;
+	}
+}
+
+.block-02 {
+	.title{
+		h2{
+			font-size:20px;
+		}
+		p{
+			padding-top:5px;
+		}
+	}
+}
+
+.header-top{
+	.logo{
+		margin-bottom:0;
+		padding:0;
+		img{
+			vertical-align:top;
+		}
+	}
+}
+
+.nav-user{
+	& > ul{
+		& > li{
+			& > .btn{
+				padding:0 12px;
+			}
+		}
+	}
+}
+
+.listItems{
+	margin-left:-5px;
+	margin-right:-5px;
+	& > div{
+		padding-left:5px;
+		padding-right:5px;
+		margin-bottom:10px;
+		float:left;
+		&.item_0, &.item_3{
+			width:43%;
+		}
+		&.item_1, &.item_2{
+			width:57%;
+		}
+		&.item_4{
+			float:none;
+		}
+	}
+}
+
+.p-modal{
+	background: rgba($color-black, .3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 99999;
+	display: none;
+	.p-body{
+		background: $color-white;
+		padding: $size-20 $size-30 $size-30;
+		min-width: 460px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		@include p-transform(translate(-50%,-50%));
+	}
+	.p-close{
+		float: right;
+		padding: 10px;
+		margin: -15px -20px 0 0;
+	}
+	.p-header{
+		font-size: $font18 + 2;
+		font-weight: bold;
+		padding: 0 0 $size-25;
+		clear: both;
+	}
+	.p-content{
+	
+	}
+}
+
+.search-box{
+	.select{
+		position: relative;
+		float: left;
+		height: 35px;
+		background: $color-white;
+		overflow: hidden;
+		&:before{
+			font-family: Truliacons;
+			content: "\e835";
+			position: absolute;
+			right: 3px;
+			top: $size-10;
+			
+		}
+		select{
+			background: none;
+			border: none;
+			height: 35px;
+			width: 120%;
+			padding: 0 $size-5;
+		}
+	}
+	.search-ipt{
+		overflow: hidden;
+		position: relative;
+		padding-right: 50px;
+		.form-control{
+			background: $color-white;
+			height: 35px;
+			float: none;
+			width: 100%;
+			vertical-align: top;
+		}
+		.btn-search{
+			height: 35px;
+			line-height: 35px;
+			float: none;
+			width: 50px;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+	}
+}

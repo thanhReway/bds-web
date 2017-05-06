@@ -1,4 +1,0 @@
-<Limit> 
-order deny,allow 
-deny from all 
-</Limit>

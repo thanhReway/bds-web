@@ -1,0 +1,1536 @@
+@charset "UTF-8";
+/*!
+ *  @PhuongNguyen - Front End Developer
+ *  Email: duyphuong2101@gmail.com
+ *  Tel: 096 7474 989
+ */
+@font-face {
+  font-family: Truliacons;
+  src: url(../fonts/truliacons.eot);
+  src: url(../fonts/truliacons.eot?#iefix) format("embedded-opentype"), url(../fonts/truliacons.woff) format("woff"), url(../fonts/truliacons.ttf) format("truetype"), url(../fonts/truliacons.svg#Truliacons) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Entypo;
+  src: url(../fonts/Entypo.eot);
+  src: url(../fonts/Entypo.eot?#iefix) format("embedded-opentype"), url(../fonts/Entypo.woff) format("woff"), url(../fonts/Entypo.ttf) format("truetype"), url(../fonts/Entypo.svg#Entypo) format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+.iconAddress:before,
+.iconAgent:before,
+.iconAttach:before,
+.iconAttention:before,
+.iconBasket:before,
+.iconBell:before,
+.iconBlock:before,
+.iconBookmark:before,
+.iconCalendar:before,
+.iconCamera:before,
+.iconCancel:before,
+.iconChartArea:before,
+.iconChartBar:before,
+.iconChartLine:before,
+.iconChartPie:before,
+.iconChat:before,
+.iconCheck:before,
+.iconClock:before,
+.iconCloud:before,
+.iconCog:before,
+.iconComment:before,
+.iconCup:before,
+.iconDirection:before,
+.iconDocs:before,
+.iconDollarSign:before,
+.iconDown:before,
+.iconDownOpen:before,
+.iconExport:before,
+.iconFacebook:before,
+.iconFlag:before,
+.iconFlight:before,
+.iconFolder:before,
+.iconFood:before,
+.iconForward:before,
+.iconFuel:before,
+.iconGlobe:before,
+.iconGraduationCap:before,
+.iconHeart:before,
+.iconHeartEmpty:before,
+.iconHelp:before,
+.iconHome:before,
+.iconHourGlass:before,
+.iconInbox:before,
+.iconInfo:before,
+.iconLeaf:before,
+.iconLeft:before,
+.iconLeftOpen:before,
+.iconLinkedin:before,
+.iconList:before,
+.iconLocation2:before,
+.iconMail:before,
+.iconMap2:before,
+.iconMenu:before,
+.iconMinus:before,
+.iconMobile:before,
+.iconMortgage:before,
+.iconPencil:before,
+.iconPhone:before,
+.iconPicture:before,
+.iconPinterest:before,
+.iconPlus:before,
+.iconPopup:before,
+.iconPrint:before,
+.iconQuote:before,
+.iconRent:before,
+.iconReply:before,
+.iconReplyAll:before,
+.iconResizeFull:before,
+.iconResizeSmall:before,
+.iconRight:before,
+.iconRightOpen:before,
+.iconRocket:before,
+.iconSearch:before,
+.iconShareAndroid:before,
+.iconShareIos .path1:before,
+.iconShareIos .path2:before,
+.iconShareIos .path3:before,
+.iconShareIos .path4:before,
+.iconStar:before,
+.iconStarEmpty:before,
+.iconTag:before,
+.iconThumbsDown:before,
+.iconThumbsUp:before,
+.iconTicket:before,
+.iconTrash:before,
+.iconTrophy:before,
+.iconTwitter:before,
+.iconUp:before,
+.iconUpOpen:before,
+.iconUser:before,
+.iconUsers:before,
+.iconVcard:before,
+.iconVideo:before {
+  font-family: Entypo;
+  font-style: normal;
+  font-weight: 400;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.iconFood:before {
+  content: "";
+}
+
+.iconDollarSign:before {
+  content: "";
+}
+
+.iconMortgage:before {
+  content: "";
+}
+
+.iconRent:before {
+  content: "";
+}
+
+.iconAgent:before {
+  content: "";
+}
+
+.iconHeartEmpty:before {
+  content: "";
+}
+
+.iconHourGlass:before {
+  content: "";
+}
+
+.iconFuel:before {
+  content: "";
+}
+
+.iconPlus:before {
+  content: "";
+}
+
+.iconMinus:before {
+  content: "";
+}
+
+.iconStar:before {
+  content: "";
+}
+
+.iconStarEmpty:before {
+  content: "";
+}
+
+.iconHome:before {
+  content: "";
+}
+
+.iconMenu:before {
+  content: "";
+}
+
+.iconHeart:before {
+  content: "";
+}
+
+.iconFlag:before {
+  content: "";
+}
+
+.iconCog:before {
+  content: "";
+}
+
+.iconDownOpen:before {
+  content: "";
+}
+
+.iconLeftOpen:before {
+  content: "";
+}
+
+.iconRightOpen:before {
+  content: "";
+}
+
+.iconUpOpen:before {
+  content: "";
+}
+
+.iconDown:before {
+  content: "";
+}
+
+.iconLeft:before {
+  content: "";
+}
+
+.iconRight:before {
+  content: "";
+}
+
+.iconUp:before {
+  content: "";
+}
+
+.iconAttention:before {
+  content: "";
+}
+
+.iconCloud:before {
+  content: "";
+}
+
+.iconMail:before {
+  content: "";
+}
+
+.iconPencil:before {
+  content: "";
+}
+
+.iconCheck:before {
+  content: "";
+}
+
+.iconCancel:before {
+  content: "";
+}
+
+.iconHelp:before {
+  content: "";
+}
+
+.iconQuote:before {
+  content: "";
+}
+
+.iconDirection:before {
+  content: "";
+}
+
+.iconForward:before {
+  content: "";
+}
+
+.iconList:before {
+  content: "";
+}
+
+.iconTag:before {
+  content: "";
+}
+
+.iconReply:before {
+  content: "";
+}
+
+.iconReplyAll:before {
+  content: "";
+}
+
+.iconExport:before {
+  content: "";
+}
+
+.iconPrint:before {
+  content: "";
+}
+
+.iconComment:before {
+  content: "";
+}
+
+.iconChat:before {
+  content: "";
+}
+
+.iconVcard:before {
+  content: "";
+}
+
+.iconAddress:before {
+  content: "";
+}
+
+.iconLocation2:before {
+  content: "";
+}
+
+.iconMap2:before {
+  content: "";
+}
+
+.iconTrash:before {
+  content: "";
+}
+
+.iconDocs:before {
+  content: "";
+}
+
+.iconBasket:before {
+  content: "";
+}
+
+.iconResizeFull:before {
+  content: "";
+}
+
+.iconResizeSmall:before {
+  content: "";
+}
+
+.iconPopup:before {
+  content: "";
+}
+
+.iconInbox:before {
+  content: "";
+}
+
+.iconFlight:before {
+  content: "";
+}
+
+.iconTwitter:before {
+  content: "";
+}
+
+.iconFacebook:before {
+  content: "";
+}
+
+.iconLinkedin:before {
+  content: "";
+}
+
+.iconPicture:before {
+  content: "";
+}
+
+.iconGlobe:before {
+  content: "";
+}
+
+.iconLeaf:before {
+  content: "";
+}
+
+.iconGraduationCap:before {
+  content: "";
+}
+
+.iconTicket:before {
+  content: "";
+}
+
+.iconVideo:before {
+  content: "";
+}
+
+.iconTrophy:before {
+  content: "";
+}
+
+.iconThumbsUp:before {
+  content: "";
+}
+
+.iconThumbsDown:before {
+  content: "";
+}
+
+.iconUser:before {
+  content: "";
+}
+
+.iconUsers:before {
+  content: "";
+}
+
+.iconFolder:before {
+  content: "";
+}
+
+.iconCalendar:before {
+  content: "";
+}
+
+.iconChartPie:before {
+  content: "";
+}
+
+.iconChartLine:before {
+  content: "";
+}
+
+.iconChartBar:before {
+  content: "";
+}
+
+.iconChartArea:before {
+  content: "";
+}
+
+.iconAttach:before {
+  content: "";
+}
+
+.iconPhone:before {
+  content: "";
+}
+
+.iconMobile:before {
+  content: "";
+}
+
+.iconCamera:before {
+  content: "";
+}
+
+.iconSearch:before {
+  content: "";
+}
+
+.iconBell:before {
+  content: "";
+}
+
+.iconBookmark:before {
+  content: "";
+}
+
+.iconClock:before {
+  content: "";
+}
+
+.iconBlock:before {
+  content: "";
+}
+
+.iconRocket:before {
+  content: "";
+}
+
+.iconPinterest:before {
+  content: "";
+}
+
+.iconCup:before {
+  content: "";
+}
+
+.iconInfo:before {
+  content: "";
+}
+
+.iconShareIos .path1:before {
+  content: "";
+}
+
+.iconShareIos .path2:before {
+  content: "\e604";
+  margin-left: -0.63965em;
+}
+
+.iconShareIos .path3:before {
+  content: "\e605";
+  margin-left: -0.63965em;
+}
+
+.iconShareIos .path4:before {
+  content: "\e608";
+  margin-left: -0.63965em;
+}
+
+.iconShareAndroid:before {
+  content: "";
+}
+
+.iconActivelife:before,
+.iconAddress:before,
+.iconAffordability:before,
+.iconAgent:before,
+.iconAir:before,
+.iconAndroid:before,
+.iconApple:before,
+.iconAttach:before,
+.iconAttention:before,
+.iconBasket:before,
+.iconBath:before,
+.iconBed:before,
+.iconBell:before,
+.iconBike:before,
+.iconBlock:before,
+.iconBlog:before,
+.iconBookmark:before,
+.iconCalendar:before,
+.iconCamera:before,
+.iconCancel2:before,
+.iconCar:before,
+.iconCat:before,
+.iconChartArea:before,
+.iconChartBar:before,
+.iconChartLine:before,
+.iconChartPie:before,
+.iconChat:before,
+.iconCheck:before,
+.iconCircledHelp:before,
+.iconCity:before,
+.iconClock:before,
+.iconCloud:before,
+.iconCoffee:before,
+.iconCog:before,
+.iconComment:before,
+.iconCreditCard:before,
+.iconCrime:before,
+.iconCup:before,
+.iconDirection:before,
+.iconDocs:before,
+.iconDog:before,
+.iconDown:before,
+.iconDownOpen:before,
+.iconExport:before,
+.iconEye:before,
+.iconFHEO:before,
+.iconFacebook:before,
+.iconFlag:before,
+.iconFlight:before,
+.iconFloorplan:before,
+.iconFolder:before,
+.iconFood:before,
+.iconForward:before,
+.iconFuel:before,
+.iconGlobe:before,
+.iconGooglePlus:before,
+.iconGraduationCap:before,
+.iconHeart:before,
+.iconHeartActive:before,
+.iconHeartEmpty:before,
+.iconHeartInactive:before,
+.iconHelp:before,
+.iconHome2:before,
+.iconHomeWorth:before,
+.iconHourGlass:before,
+.iconInbox:before,
+.iconInfo:before,
+.iconLeaf:before,
+.iconLeft:before,
+.iconLeftOpen:before,
+.iconLinkedin:before,
+.iconList:before,
+.iconLocation:before,
+.iconMail:before,
+.iconMap:before,
+.iconMegaphone:before,
+.iconMenu:before,
+.iconMessageCompose:before,
+.iconMessageView:before,
+.iconMinus:before,
+.iconMobile:before,
+.iconMoon:before,
+.iconMortgage:before,
+.iconNoteBeamed:before,
+.iconPaperPlane:before,
+.iconPencil:before,
+.iconPhone:before,
+.iconPicture:before,
+.iconPig:before,
+.iconPinterest:before,
+.iconPlus:before,
+.iconPopup:before,
+.iconPrint:before,
+.iconQuote:before,
+.iconRent:before,
+.iconReply:before,
+.iconReplyAll:before,
+.iconResizeFull:before,
+.iconResizeSmall:before,
+.iconRestaurants:before,
+.iconRight:before,
+.iconRightOpen:before,
+.iconRocket:before,
+.iconSearch:before,
+.iconShopping:before,
+.iconStar:before,
+.iconStarActive:before,
+.iconStarDefault:before,
+.iconStarEmpty:before,
+.iconStarNotification:before,
+.iconStarShield:before,
+.iconTag:before,
+.iconThumbsDown:before,
+.iconThumbsUp:before,
+.iconTicket:before,
+.iconTransit:before,
+.iconTrash:before,
+.iconTrophy:before,
+.iconTwitter:before,
+.iconUp:before,
+.iconUpOpen:before,
+.iconUser:before,
+.iconUserAdd:before,
+.iconUsers:before,
+.iconVcard:before,
+.iconVideo:before,
+.iconWalking:before,
+.iconZombieHand:before,
+.ratingStar .ratingGroup .ratingOn label:before,
+.ratingStar .ratingGroup label:before,
+.toggleArrow:before,
+.toggleArrowActive:before {
+  font-family: Truliacons;
+  font-style: normal;
+  font-weight: 400;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1.1em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.iconActivelife:before {
+  content: '\e800';
+}
+
+.iconAddress:before {
+  content: '\e801';
+}
+
+.iconAgent:before {
+  content: '\e802';
+}
+
+.iconChartArea:before {
+  content: '\e803';
+}
+
+.iconChartBar:before {
+  content: '\e804';
+}
+
+.iconChartLine:before {
+  content: '\e805';
+}
+
+.iconExport:before {
+  content: '\e806';
+}
+
+.iconEye:before {
+  content: '\e807';
+}
+
+.iconFacebook:before {
+  content: '\e808';
+}
+
+.iconInfo:before {
+  content: '\e809';
+}
+
+.iconLeaf:before {
+  content: '\e80a';
+}
+
+.iconLeft:before {
+  content: '\e80b';
+}
+
+.iconPhone:before {
+  content: '\e80c';
+}
+
+.iconPicture:before {
+  content: '\e80d';
+}
+
+.iconPig:before {
+  content: '\e80e';
+}
+
+.iconStarDefault:before, .iconStarEmpty:before, .ratingStar .ratingGroup label:before {
+  content: '\e80f';
+}
+
+.iconCrime:before, .iconStarShield:before {
+  content: '\e810';
+}
+
+.iconTag:before {
+  content: '\e811';
+}
+
+.iconAffordability:before {
+  content: '\e812';
+}
+
+.iconUserAdd:before {
+  content: '\e813';
+}
+
+.iconAir:before {
+  content: '\e814';
+}
+
+.iconAndroid:before {
+  content: '\e815';
+}
+
+.iconApple:before {
+  content: '\e816';
+}
+
+.iconAttach:before {
+  content: '\e817';
+}
+
+.iconAttention:before {
+  content: '\e818';
+}
+
+.iconBasket:before {
+  content: '\e819';
+}
+
+.iconBath:before {
+  content: '\e81a';
+}
+
+.iconBed:before {
+  content: '\e81b';
+}
+
+.iconBell:before {
+  content: '\e81c';
+}
+
+.iconBike:before {
+  content: '\e81d';
+}
+
+.iconBlock:before {
+  content: '\e81e';
+}
+
+.iconBookmark:before {
+  content: '\e81f';
+}
+
+.iconCalendar:before {
+  content: '\e820';
+}
+
+.iconCamera:before {
+  content: '\e821';
+}
+
+.iconCancel2:before {
+  content: '\e859';
+}
+
+.iconCar:before {
+  content: '\e823';
+}
+
+.iconCat:before {
+  content: '\e824';
+}
+
+.iconChartPie:before {
+  content: '\e825';
+}
+
+.iconChat:before {
+  content: '\e826';
+}
+
+.iconCheck:before {
+  content: '\e827';
+}
+
+.iconCircledHelp:before {
+  content: '\e828';
+}
+
+.iconCity:before {
+  content: '\e829';
+}
+
+.iconClock:before {
+  content: '\e82a';
+}
+
+.iconCloud:before {
+  content: '\e82b';
+}
+
+.iconCoffee:before {
+  content: '\e82c';
+}
+
+.iconCog:before {
+  content: '\e82d';
+}
+
+.iconComment:before {
+  content: '\e82e';
+}
+
+.iconCreditCard:before {
+  content: '\e82f';
+}
+
+.iconCup:before {
+  content: '\e830';
+}
+
+.iconDirection:before {
+  content: '\e831';
+}
+
+.iconDocs:before {
+  content: '\e832';
+}
+
+.iconDog:before {
+  content: '\e833';
+}
+
+.iconDown:before {
+  content: '\e834';
+}
+
+.iconDownOpen:before {
+  content: '\e835';
+}
+
+.iconFHEO:before {
+  content: '\e836';
+}
+
+.iconFlag:before {
+  content: '\e837';
+}
+
+.iconFlight:before {
+  content: '\e838';
+}
+
+.iconFloorplan:before {
+  content: '\e839';
+}
+
+.iconFolder:before {
+  content: '\e83a';
+}
+
+.iconFood:before {
+  content: '\e83b';
+}
+
+.iconForward:before {
+  content: '\e83c';
+}
+
+.iconFuel:before {
+  content: '\e83d';
+}
+
+.iconGlobe:before {
+  content: '\e83e';
+}
+
+.iconGooglePlus:before {
+  content: '\e83f';
+}
+
+.iconGraduationCap:before {
+  content: '\e840';
+}
+
+.iconHeart:before, .iconHeartInactive:before {
+  content: '\e841';
+}
+
+.iconHeartEmpty:before {
+  content: '\e842';
+}
+
+.iconHelp:before {
+  content: '\e843';
+}
+
+.iconHome2:before {
+  content: '\e844';
+}
+
+.iconHourGlass:before {
+  content: '\e845';
+}
+
+.iconInbox:before {
+  content: '\e846';
+}
+
+.iconLeftOpen:before {
+  content: '\e847';
+}
+
+.iconLinkedin:before {
+  content: '\e848';
+}
+
+.iconList:before {
+  content: '\e849';
+}
+
+.iconLocation:before {
+  content: '\e84a';
+}
+
+.iconMail:before {
+  content: '\e84b';
+}
+
+.iconMap:before {
+  content: '\e84c';
+}
+
+.iconMegaphone:before {
+  content: '\e84d';
+}
+
+.iconMenu:before {
+  content: '\e84e';
+}
+
+.iconMessageCompose:before {
+  content: '\e84f';
+}
+
+.iconMessageView:before {
+  content: '\e850';
+}
+
+.iconMinus:before {
+  content: '\e851';
+}
+
+.iconMobile:before {
+  content: '\e852';
+}
+
+.iconMoon:before {
+  content: '\e853';
+}
+
+.iconNoteBeamed:before {
+  content: '\e854';
+}
+
+.iconMortgage:before {
+  content: '\e855';
+}
+
+.iconPaperPlane:before {
+  content: '\e856';
+}
+
+.iconPencil:before {
+  content: '\e857';
+}
+
+.iconPinterest:before {
+  content: '\e858';
+}
+
+.iconPlus:before {
+  content: '\e859';
+}
+
+.iconPopup:before {
+  content: '\e85a';
+}
+
+.iconPrint:before {
+  content: '\e85b';
+}
+
+.iconQuote:before {
+  content: '\e85c';
+}
+
+.iconRent:before {
+  content: '\e85d';
+}
+
+.iconReply:before {
+  content: '\e85e';
+}
+
+.iconReplyAll:before {
+  content: '\e85f';
+}
+
+.iconResizeFull:before {
+  content: '\e860';
+}
+
+.iconResizeSmall:before {
+  content: '\e861';
+}
+
+.iconRestaurants:before {
+  content: '\e862';
+}
+
+.iconRight:before {
+  content: '\e863';
+}
+
+.iconRightOpen:before {
+  content: '\e864';
+}
+
+.iconRocket:before {
+  content: '\e865';
+}
+
+.iconSearch:before {
+  content: '\e866';
+}
+
+.iconShopping:before {
+  content: '\e867';
+}
+
+.iconStar:before, .iconStarActive:before, .iconStarNotification:before, .ratingStar .ratingGroup .ratingOn label:before {
+  content: '\e868';
+}
+
+.iconThumbsDown:before {
+  content: '\e869';
+}
+
+.iconThumbsUp:before {
+  content: '\e86a';
+}
+
+.iconTicket:before {
+  content: '\e86b';
+}
+
+.iconTransit:before {
+  content: '\e86c';
+}
+
+.iconTrash:before {
+  content: '\e86d';
+}
+
+.iconTrophy:before {
+  content: '\e86e';
+}
+
+.iconTwitter:before {
+  content: '\e86f';
+}
+
+.iconUp:before {
+  content: '\e870';
+}
+
+.iconUpOpen:before {
+  content: '\e871';
+}
+
+.iconUser:before {
+  content: '\e872';
+}
+
+.iconUsers:before {
+  content: '\e873';
+}
+
+.iconVcard:before {
+  content: '\e874';
+}
+
+.iconVideo:before {
+  content: '\e875';
+}
+
+.iconWalking:before {
+  content: '\e876';
+}
+
+.iconZombieHand:before {
+  content: '\e877';
+}
+
+.iconHomeWorth:before {
+  content: '\e878';
+}
+
+.iconBlog:before {
+  content: '\e879';
+}
+
+.p-icon {
+  background: url("../img/p-icon.png") no-repeat 0 0;
+  width: 0;
+  height: 0;
+  vertical-align: middle;
+  display: inline-block;
+}
+.p-icon.i-sort {
+  width: 24px;
+  height: 14px;
+}
+.p-icon.i-fb, .p-icon.i-sms, .p-icon.i-zalo, .p-icon.i-email, .p-icon.i-share {
+  width: 24px;
+  height: 24px;
+  background-position: 0 -21px;
+}
+.p-icon.i-sms {
+  background-position-y: -45px;
+}
+.p-icon.i-zalo {
+  background-position-y: -69px;
+}
+.p-icon.i-email {
+  background-position-y: -93px;
+}
+.p-icon.i-share {
+  background-position-y: -117px;
+}
+.p-icon.i-more {
+  width: 24px;
+  height: 15px;
+  background-position: 0 -141px;
+}
+.p-icon.i-paycart, .p-icon.i-payapp, .p-icon.i-paysms, .p-icon.i-paybank, .p-icon.i-paycredit {
+  width: 30px;
+  height: 29px;
+  background-position: -70px 0;
+}
+.p-icon.i-payapp {
+  background-position-y: -29px;
+}
+.p-icon.i-paysms {
+  background-position-y: -58px;
+}
+.p-icon.i-paybank {
+  background-position-y: -87px;
+}
+.p-icon.i-paycredit {
+  background-position-y: -200px;
+}
+.p-icon.i-advlocaltion, .p-icon.i-advhome, .p-icon.i-advlogo {
+  width: 28px;
+  height: 28px;
+  background-position: -72px -116px;
+}
+.p-icon.i-advhome {
+  background-position-y: -144px;
+}
+.p-icon.i-advlogo {
+  background-position-y: -172px;
+}
+.p-icon.i-mapdraw, .p-icon.i-maplocation, .p-icon.i-location, .p-icon.i-mapprev, .p-icon.i-maprefresh, .p-icon.i-mapnext, .p-icon.i-place, .p-icon.i-close {
+  width: 50px;
+  height: 46px;
+  background-position: -127px 0;
+}
+.p-icon.i-mapdraw.active, .p-icon.active.i-maplocation, .p-icon.active.i-location, .p-icon.active.i-mapprev, .p-icon.active.i-maprefresh, .p-icon.active.i-mapnext, .p-icon.active.i-place, .p-icon.active.i-close {
+  background-position-x: -176px;
+}
+.p-icon.i-maplocation {
+  background-position-y: -46px;
+}
+.p-icon.i-maplocation.active {
+  background-position-x: -176px;
+}
+.p-icon.i-location {
+  background-position-y: -276px;
+}
+.p-icon.i-location.active {
+  background-position-x: -176px;
+}
+.p-icon.i-mapprev {
+  background-position-y: -138px;
+}
+.p-icon.i-maprefresh {
+  background-position-y: -92px;
+}
+.p-icon.i-mapnext {
+  background-position-y: -184px;
+}
+.p-icon.i-place {
+  background-position-y: -322px;
+}
+.p-icon.i-plus18, .p-icon.i-user18 {
+  width: 18px;
+  height: 18px;
+  background-position: -105px 0;
+}
+.p-icon.i-user18 {
+  background-position-y: -18px;
+}
+.p-icon.i-close {
+  background-position-y: -230px;
+}
+.p-icon.i-maps {
+  width: 24px;
+  height: 40px;
+  background-position: 0 -196px;
+}
+
+.iconShareContent {
+  color: white;
+}
+.iconShareContent svg {
+  height: 24px;
+}
+
+.active .p-icon.i-mapdraw, .active .p-icon.i-maplocation, .active .p-icon.i-location, .active .p-icon.i-mapprev, .active .p-icon.i-maprefresh, .active .p-icon.i-mapnext, .active .p-icon.i-place, .active .p-icon.i-close {
+  background-position: -176px 0;
+}
+.active .p-icon.i-maplocation {
+  background-position: -176px -46px;
+}
+.active .p-icon.i-mapprev {
+  background-position: -176px -138px;
+}
+.active .p-icon.i-maprefresh {
+  background-position: -176px -92px;
+}
+.active .p-icon.i-mapnext {
+  background-position: -176px -184px;
+}
+.active .p-icon.i-close {
+  background-position: -176px -230px;
+}
+.active .p-icon.i-place {
+  background-position: -176px -322px;
+}
+
+html, body {
+  overflow-x: hidden;
+  font-size: 13px;
+}
+
+.page-home > div:not(#chat-container), .page-home .main, .page-home .box-homepage {
+  height: 100%;
+}
+
+.box-homepage {
+  min-height: 400px;
+}
+
+footer.footer {
+  clear: both;
+}
+
+.ui-widget.ui-widget-content {
+  z-index: 998;
+  border: none;
+  padding-top: 5px;
+}
+.ui-widget.relandAutoOne li {
+  border-top: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+.ui-widget.relandAutoOne p {
+  clear: both;
+  position: relative;
+  padding: 10px 20px 10px 0;
+  margin-left: 40px;
+}
+.ui-widget.relandAutoOne p i {
+  position: absolute;
+  left: -30px;
+}
+.ui-widget.relandAutoOne p i.gray {
+  color: #bababa;
+}
+.ui-widget.relandAutoOne p i.red {
+  color: #e60000;
+}
+.ui-widget.relandAutoOne p span {
+  float: right;
+  color: #a6a6a6;
+  font-size: 14px;
+}
+.ui-widget.relandAutoOne p + p {
+  border-top: 1px solid #e3e3e3;
+}
+.ui-widget.relandAuto {
+  position: absolute;
+  overflow: auto;
+  max-width: 354px;
+  max-height: 270px;
+}
+.ui-widget.relandAuto li {
+  margin-left: 15px;
+  position: relative;
+  padding: 8px 0 8px 27px;
+  border-top: 1px solid #e3e3e3;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  /*&:last-child{
+  	&:after{
+  		content:"";
+  		background:$color-e4;
+  		height:1px;
+  		left:-45px;
+  		right:0;
+  		position:absolute;
+  		bottom:-5px;
+  	}	
+  }*/
+}
+.ui-widget.relandAuto li.ui-autocomplete-category {
+  color: #666;
+  border-top: 1px solid #e3e3e3;
+  padding: 12px 15px;
+  margin: 0;
+  display: none;
+}
+.ui-widget.relandAuto li.ui-autocomplete-category:first-child {
+  display: block;
+  color: #00a8e6;
+}
+.ui-widget.relandAuto li.ui-autocomplete-category:first-child:before {
+  content: "\f05b";
+  display: inline-block;
+  width: 30px;
+  font-family: FontAwesome;
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+}
+.ui-widget.relandAuto li span {
+  display: block;
+  font-size: 12px;
+  color: #a6a6a6;
+  padding: 3px 0 0;
+}
+.ui-widget.relandAuto li i {
+  position: absolute;
+  left: -12px;
+  font-weight: normal;
+}
+.ui-widget.relandAuto li i.gray {
+  color: #bababa;
+}
+.ui-widget.relandAuto li i.red {
+  color: #e60000;
+}
+.ui-widget.relandAuto li i.fa {
+  font-size: 18px;
+}
+.ui-widget.relandAuto1 li {
+  margin-left: 45px;
+  position: relative;
+  padding: 10px 10px 10px 0;
+  background: white;
+}
+.ui-widget.relandAuto1 li.ui-menu-main {
+  margin-left: 0;
+  color: #000;
+  padding-left: 45px;
+  z-index: 2;
+  margin-bottom: -2px;
+  padding-bottom: 10px;
+}
+.ui-widget.relandAuto1 li.ui-menu-main:first-child {
+  border-top: none;
+}
+.ui-widget.relandAuto1 li.ui-menu-main i {
+  left: 12px;
+  top: 8px;
+  font-size: 18px;
+}
+.ui-widget.relandAuto1 li.ui-menu-main i.iconMap, .ui-widget.relandAuto1 li.ui-menu-main i.iconCity, .ui-widget.relandAuto1 li.ui-menu-main i.iconBookmark, .ui-widget.relandAuto1 li.ui-menu-main i.iconLocation {
+  color: #00a8e6;
+}
+.ui-widget.relandAuto1 li.ui-menu-main i.iconCity, .ui-widget.relandAuto1 li.ui-menu-main i.iconBookmark {
+  font-size: 22px;
+}
+.ui-widget.relandMaps {
+  z-index: 99999999;
+  height: auto;
+  position: fixed;
+}
+
+.block-02 .title h2 {
+  font-size: 20px;
+}
+.block-02 .title p {
+  padding-top: 5px;
+}
+
+.header-top .logo {
+  margin-bottom: 0;
+  padding: 0;
+}
+.header-top .logo img {
+  vertical-align: top;
+}
+
+.nav-user > ul > li > .btn {
+  padding: 0 12px;
+}
+
+.listItems {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.listItems > div {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+  float: left;
+}
+.listItems > div.item_0, .listItems > div.item_3 {
+  width: 43%;
+}
+.listItems > div.item_1, .listItems > div.item_2 {
+  width: 57%;
+}
+.listItems > div.item_4 {
+  float: none;
+}
+
+.p-modal {
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99999;
+  display: none;
+}
+.p-modal .p-body {
+  background: white;
+  padding: 20px 30px 30px;
+  min-width: 460px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.p-modal .p-close {
+  float: right;
+  padding: 10px;
+  margin: -15px -20px 0 0;
+}
+.p-modal .p-header {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 0 25px;
+  clear: both;
+}
+
+.search-box .select {
+  position: relative;
+  float: left;
+  height: 35px;
+  background: white;
+  overflow: hidden;
+}
+.search-box .select:before {
+  font-family: Truliacons;
+  content: "\e835";
+  position: absolute;
+  right: 3px;
+  top: 10px;
+}
+.search-box .select select {
+  background: none;
+  border: none;
+  height: 35px;
+  width: 120%;
+  padding: 0 5px;
+}
+.search-box .search-ipt {
+  overflow: hidden;
+  position: relative;
+  padding-right: 50px;
+}
+.search-box .search-ipt .form-control {
+  background: white;
+  height: 35px;
+  float: none;
+  width: 100%;
+  vertical-align: top;
+}
+.search-box .search-ipt .btn-search {
+  height: 35px;
+  line-height: 35px;
+  float: none;
+  width: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

@@ -10,13 +10,21 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Reland.vn">
     <link rel="stylesheet" href="asset/css/style.css" type="text/css">
-    <!--[if lte IE 8]>
-    <script src="asset/js/html5.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="asset/css/ie.css" type="text/css">
-    <![endif]-->
+    <link rel="stylesheet" href="asset/css/style2017.min.css" type="text/css">
+    
     <script src="asset/js/modernizr.min.js" type="text/javascript"></script>
 </head>
 <body class="page-home">
+    
+    <div class="p-modal" id="modal-demo">
+        <div class="p-body">
+            <a href="javascript:void(0)" class="p-close" data-close="modal-demo"><i class="iconCancel"></i></a>
+            <div class="p-header">Stay in the know</div>
+            <div class="p-content">
+                dsfd
+            </div>
+        </div>
+    </div>
     <div class="wrapper" id="wrapper">
         <div class="main" id="main">
             <header class="header">
@@ -164,19 +172,14 @@
                             <div class="group">
                                 <div class="inner">
                                     <div class="wrap">
-                                        <div class="search">
-                                            <div class="option">
-                                                <h2 class="sp">Your Home for Real Estate.</h2>
-                                                <div class="row">
-                                                    <div class="col col-50">
-                                                        <a href="#search_type" data-search="true" class="active" data-type="for_sale"><span>Bán</span></a>
-                                                    </div>
-                                                    <div class="col col-50">
-                                                        <a href="#search_type" data-search="true" data-type="for_rent"><span>Cho thuê</span></a>
-                                                    </div>
-                                                </div>
+                                        <div class="search search-box">
+                                            <div class="select">
+                                                <select>
+                                                    <option value="for_sale">Bán</option>
+                                                    <option value="for_rent">Cho thuê</option>
+                                                </select>
                                             </div>
-                                            <div class="form">
+                                            <div class="search-ipt">
                                                 <form action="index.html" method="post">
                                                     <input type="search" class="form-control" placeholder="Address, City, Zip, Neighborhood" name="search" autocomplete="off"/>
                                                     <button class="btn-search" type="submit"><i class="fa fa-search"></i><span class="text">Tìm kiếm</span></button>
@@ -217,6 +220,7 @@
                     </div>
                     <div class="col col-50">
                         <div class="block-02">
+                            <a href="javascript:void(0)" data-modal="modal-demo" class="p-modal-button">Show modal</a>
                             <div data-scroll="true" class="title">
                                 <h2>Safe Neighborhoods</h2>
                                 <p>New York, NY</p>
@@ -1193,5 +1197,7 @@
     <![endif]-->
     <script src="asset/js/common.min.js"></script>
     <!-- //Script -->
+
+    <script src="asset/js/javascript.js"></script>
 </body>
 </html>

@@ -1,0 +1,8 @@
+// Bases
+// --------------------------
+*{
+    @include p-box-sizing(border-box);
+    @include p-box-shadow(none);
+    text-shadow: none;
+    outline: none;
+}

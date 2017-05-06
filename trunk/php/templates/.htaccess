@@ -1,4 +1,0 @@
-<Files ~ "\.(tpl|inc|cfg)$">
-order deny,allow
-deny from all
-</files>
